@@ -1,0 +1,74 @@
+.addProductContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.addProductContainer h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: skyblue;
+}
+
+.addProductContainer button {
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: skyblue;
+    font-weight: bold;
+    
+}
+
+
+.addProductContainer button:hover {
+    background-color: black;
+    color: skyblue;
+}
+
+
+.addProductWrapper {
+    width: 100%;
+    height: 400px;
+    padding: 40px 30px;
+    background-color: #f5f5f5;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2);
+    border: 4px solid skyblue;
+    border-radius: 20px;
+}
+
+.addProductWrapper form {
+    width: 300px;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.addProductInput {
+    width: 100%;
+    height: 30px;
+    margin-left: 30px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    color: skyblue;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.addProductInput::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    color: skyblue;
+}
+
+.addProductWrapper button {
+    width: 50%;
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.addProductWrapper button:hover {
+    color: skyblue;
+    background-color: black;
+    border: 2px solid skyblue;
+}

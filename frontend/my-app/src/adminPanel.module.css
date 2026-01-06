@@ -1,0 +1,120 @@
+.headSet {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.headSet h1 {
+    font-size: 42px;
+}
+
+.headSet .btn {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 35px;
+    left: 30px; 
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(110, 114, 116);
+}
+
+.headSet .btn:hover {
+    color: black;
+    background-color: skyblue;
+    border: 2px solid black;
+}
+
+
+.heading {
+    font-weight: bold;
+    color: skyblue;
+}
+
+.adminPanelTable {
+    width: 450px;
+    height: 500px;
+    border-collapse: collapse;
+    border: 3px solid skyblue;
+    box-shadow: 0 40px 80px rgba(0, 0, 0 , 0.2);
+}
+
+.adminPanelTable thead {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: skyblue;
+}
+
+.adminPanelTable th,
+.adminPanelTable td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 5px;
+
+}
+
+.adminPanelTable td {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.adminPanelTable td button {
+    width: 70%;
+    font-size: 14px;
+    color: black;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+
+.adminPanelTable td button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid skyblue;
+}
+
+.adminPanelTable tbody tr:hover {
+    background-color: #f2faff;
+}
+
+
+.adminPanelContainer {
+    width: 880px;
+    border-collapse: collapse;
+    border: 3px solid skyblue;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2);
+}
+
+.adminPanelContainer thead {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: skyblue;
+}
+
+
+.adminPanelContainer th,
+.adminPanelContainer td {
+    border: 2px solid black;
+    text-align: left;
+}
+
+.adminPanelContainer td {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.adminPanelContainer button {
+    background-color: skyblue;
+    border: 2px solid black;
+    font-size: 16px;
+    width: 80px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.adminPanelContainer button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
