@@ -14,7 +14,7 @@ export const getUserData = async (req, resp) => {
             })
         }
 
-        const userData = await userModel.find().select('-password');
+        const userData = await userModel.find({role: 'user'}).select('-password');
         resp.status(200).json({
             success: true,
             data: userData,
